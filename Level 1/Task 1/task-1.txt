@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Isha Solanki| Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 0.5rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: #ccc;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .about img {
+      max-width: 150px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    .skills ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .skills li {
+      background: #eee;
+      margin: 5px 0;
+      padding: 8px;
+      border-radius: 4px;
+    }
+
+    .projects img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .project {
+      margin-bottom: 2rem;
+    }
+
+    .resume a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    .contact p {
+      margin: 10px 0;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Isha Solanki</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <img src="c:\Users\LENOVO\Desktop\ISHA\my pic.jpg" />
+    <p>Hello! I'm Isha, a web enthusiast who enjoys bringing websites to life. I focus on writing clean, efficient code and love learning new technologies. creating responsive websites using HTML, CSS, and JavaScript. I love building clean and user-friendly interfaces.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>Node js</li>
+      <li>React (basic)</li>
+    </ul>
+  </section>
+
+<section id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <class="projects-grid">
+            <div class="project-card">
+                <img src="https://www.knacksystems.com/hubfs/SAP%20E-Commerce%20Platform.png" alt="E-commerce website homepage featuring product cards and promotions" class="project-image" />
+                <div class="project-info">
+                    <h3 class="project-title">E-commerce Platform</h3>
+                    <p>Complete online store with product catalog, shopping cart, and checkout system.</p>
+                </div>
+            </div>
+        </class>
+        </section>
+     <section id="resume" class="resume-section">
+        <h2 class="section-title">My Resume</h2>
+        <p>Download my resume to learn more about my professional experience and education.</p>
+        <a href="resume.pdf" target="_blank">Download Resume</a>
+
+    </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: isha12@email.com</p>
+    <p>Phone: 91- 9428709383</p>
+     <h3>Location</h3>
+    <p>Ahmedabad</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Isha Solanki. Built with love and a bit of caffeine ☕.</p>
+  </footer>
+
+</body>
+</html>
